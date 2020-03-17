@@ -9,7 +9,7 @@ namespace Task2
             Console.WriteLine("Enter a message:");
             string str = Console.ReadLine();
             int valueLength = str.Length;
-            Console.WriteLine($ "Count of numbers =" + valueLength);
+            Console.WriteLine($"Count of numbers =" + valueLength);
         }
     }
 }
