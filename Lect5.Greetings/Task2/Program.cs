@@ -6,10 +6,18 @@ namespace Task2
     {
         static void Main(string[] args)
         {
+            byte charACount;
             Console.WriteLine("Enter a message:");
             string str = Console.ReadLine();
-            int valueLength = str.Length;
-            Console.WriteLine($"Count of numbers =" + valueLength);
+            foreach (char chValue in str)
+            {
+                if (chValue == 'a')
+                {
+                    charACount++;
+                }      
+            }
+           
+            Console.WriteLine($"Count of char A = " + charACount);
         }
     }
 }
