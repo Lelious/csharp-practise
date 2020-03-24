@@ -6,14 +6,14 @@ namespace Practice_07
     {
         static void Main(string[] args)
         {           
-            Task_01(); // Array creation must have array size.
+            Task_01();
             Task_02();
             Task_03();
         }
 
         static void Task_01()
         {
-            int[] array1 = new int[5];
+            string[] array1 = new string[] { };
         }
         static void Task_02()
         {
